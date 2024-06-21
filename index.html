@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Value Check</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="login-iten">
+       <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-6">
+                <form action="#" class="form">
+                    <div class="row gutter-y-30">
+                        <div class="col-12">
+                            <input id="text" type="text" class="form-control" placeholder="Enter Your Name">
+                        </div>
+                        <div class="col-12">
+                            <input id="email" type="email" class="form-control" placeholder="Enter Your email">
+                        </div>
+                        <div class="col-12">
+                            <button onclick="submitForm()" type="submit" class="btn btn-primary form-control">Submit</button>
+                        </div>
+                        <div class="col-12">
+                            <h2 id="text-item"></h2>
+                            <h2 id="text-item-two"></h2>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+       </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
